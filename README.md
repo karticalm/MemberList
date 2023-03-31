@@ -9,7 +9,6 @@ Tech Used:
 - Tailwind for quick and responsive development with a lot of options, it may become quite complex while developing a style rich components but I still feel it's better than usuing conventional or external css. (Also it's the one I am familiar with so :P)
 
 - Implemented a combination of Grid and Flex Model here. Still a far away at being good at it but learning a bit more everyday.
-yy
 
 - Decided to go with static data due to time constraints, we can also create a hook to fetch data from an API to display and store in state variables.
 
