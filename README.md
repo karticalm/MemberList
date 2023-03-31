@@ -2,6 +2,8 @@
 
 Thanks for the oppurtunity!
 
+Hosted on - https://glittery-marshmallow-4f0b3d.netlify.app/
+
 Tech Used:
 
 - Created App using create React app with type script configuration.

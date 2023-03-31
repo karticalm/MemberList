@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
-import MainContainer from './Components/MainContainer';
+import React from "react";
+import "./App.css";
+import MainContainer from "./Components/MainContainer";
 
 function App() {
   return (
-    <div className="App h-full">
+    <div className="App">
       <MainContainer />
     </div>
   );

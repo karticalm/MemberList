@@ -18,7 +18,7 @@ const MainContainer = () => {
   const [filteredMembers, setFilteredMembers] = useState(data);
 
   return (
-    <div className="grid grid-cols-6 grid-rows-6">
+    <div className="grid grid-cols-6">
       <div className="col-start-2 self-center justify-self-start px-8 py-[22.5px] text-[#1F2937] font-[600] text-[22px] leading-[27px]">
         Team Members
       </div>
@@ -64,11 +64,9 @@ const MainContainer = () => {
        * Side Navigation Bar
        */}
       <SideNav />
-      {
-        /**
-         * Body for Member Card Display
-         */
-      }
+      {/**
+       * Body for Member Card Display
+       */}
       <div className="col-start-2 col-end-7 row-start-2 row-end-7 rounded-tl-xl bg-[#F3F4F6]">
         <div className="flex flex-wrap px-20 py-9 justify-center">
           {filteredMembers.map((member: user) => {
